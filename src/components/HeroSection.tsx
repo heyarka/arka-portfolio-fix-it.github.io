@@ -1,5 +1,5 @@
 
-import { GitHub, Linkedin, Twitter, ArrowDown } from 'lucide-react';
+import { Github, Linkedin, Twitter, ArrowDown } from 'lucide-react';
 
 const HeroSection = () => {
   return (
@@ -34,7 +34,7 @@ const HeroSection = () => {
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
               >
-                <GitHub size={20} />
+                <Github size={20} />
               </a>
               <a 
                 href="https://linkedin.com" 

@@ -1,5 +1,5 @@
 
-import { ExternalLink, GitHub } from 'lucide-react';
+import { ExternalLink, Github } from 'lucide-react';
 
 const ProjectsSection = () => {
   const projects = [
@@ -86,7 +86,7 @@ const ProjectsSection = () => {
                     rel="noopener noreferrer"
                     className="text-blue-400 hover:text-blue-300 flex items-center text-sm"
                   >
-                    <GitHub size={16} className="mr-1" /> Source Code
+                    <Github size={16} className="mr-1" /> Source Code
                   </a>
                 </div>
               </div>
@@ -101,7 +101,7 @@ const ProjectsSection = () => {
             rel="noopener noreferrer"
             className="px-6 py-3 border border-gray-600 hover:border-white text-white rounded-md transition-colors inline-flex items-center"
           >
-            <GitHub className="mr-2" size={18} /> See More on GitHub
+            <Github className="mr-2" size={18} /> See More on GitHub
           </a>
         </div>
       </div>
